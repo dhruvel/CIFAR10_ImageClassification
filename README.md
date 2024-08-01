@@ -34,10 +34,6 @@ HNG BiqC. (2021). *CIFAR-10 Images Dataset*. Kaggle. Retrieved from [https://www
 
 2. Install necessary dependencies:
     - Ensure you have Xcode installed.
-    - Install Python dependencies (if any) using pip:
-      ```bash
-      pip install -r requirements.txt
-      ```
 
 ## Usage
 
