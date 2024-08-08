@@ -26,26 +26,33 @@ HNG BiqC. (2021). *CIFAR-10 Images Dataset*. Kaggle. Retrieved from [https://www
 
 ## Installation
 
-1. Clone the repository:
+1. Ensure you have Xcode installed.
+
+2. Clone the repository:
     ```bash
     git clone https://github.com/dhruvel/CIFAR10_ImageClassification.git
     cd CIFAR10_ImageClassification
     ```
 
-2. Install necessary dependencies:
-    - Ensure you have Xcode installed.
+3. Rename the directory to have a `.mlproj` extension for it to be discoverable by Xcode:
+    ```bash
+    cd ..
+    mv CIFAR10_ImageClassification CIFAR10_ImageClassification.mlproj
+    ```
 
 ## Usage
 
 1. Prepare the dataset:
     - Download the CIFAR-10 dataset from Kaggle and place it in the appropriate directory.
 
-2. Train the model:
-    - Open the project in Xcode.
+2. Train the model further:
+    - Open the `.mlproj` file in Xcode.
+    - Download a Dataset from [Kaggle]{https://www.kaggle.com/} and train the model further to improve the accuracy
     - Run the training script to train the model on the CIFAR-10 dataset.
 
 3. Test the model:
     - After training, use the testing script to evaluate the model's performance on the test set.
+
 
 ## Results
 
